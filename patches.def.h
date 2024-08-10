@@ -818,7 +818,7 @@
 /* This patch allows you to move clients around in the stack and swap them with the master.
  * https://dwm.suckless.org/patches/movestack/
  */
-#define MOVESTACK_PATCH 0
+#define MOVESTACK_PATCH 1
 
 /* This patch allows you to change the names of tags during runtime.
  *
@@ -1426,13 +1426,13 @@
 /* Simple patch that allows floating windows to be zoomed into the master stack position.
  * https://www.reddit.com/r/suckless/comments/ie5fe3/zoomfloating_my_own_simple_original_patch/
  */
-#define ZOOMFLOATING_PATCH 0
+#define ZOOMFLOATING_PATCH 1
 
 /* The zoomswap patch allows a master and a stack window to swap places
  * rather than every window on the screen changing position.
  * https://dwm.suckless.org/patches/zoomswap/
  */
-#define ZOOMSWAP_PATCH 0
+#define ZOOMSWAP_PATCH 1
 
 /**
  * Layouts
