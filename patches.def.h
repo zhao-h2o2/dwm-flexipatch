@@ -1334,7 +1334,7 @@
  * https://www.reddit.com/r/suckless/comments/ik27vd/key_toggle_between_next_and_previous_tag_dwm/
  * https://github.com/bakkeby/patches/wiki/toggletag
  */
-#define TOGGLETAG_PATCH 0
+#define TOGGLETAG_PATCH 1
 
 /* Lets you transfer the currently focused client between the master and stack area
  * while increasing or decreasing the master area (nmaster) accordingly.
@@ -1387,7 +1387,7 @@
 /* Follow a window to the tag it is being moved to.
  * https://dwm.suckless.org/patches/viewontag/
  */
-#define VIEWONTAG_PATCH 0
+#define VIEWONTAG_PATCH 1
 
 /* This patch warps the mouse cursor to the center of the currently focused window or screen
  * when the mouse cursor is (a) on a different screen or (b) on top of a different window.
