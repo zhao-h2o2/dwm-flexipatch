@@ -116,7 +116,7 @@ static char *colors[][ColCount] = {
 	[SchemeScratchNorm] = { scratchnormfgcolor, scratchnormbgcolor, scratchnormbordercolor, scratchnormfloatcolor },
 };
 
-static const char *scratchpadcmd[] = {"s", "st", "-n", "spterm", NULL};
+static const char *scratchpadcmd[] = {"s", "wezterm", "start", "--always-new-process", "--class", "spterm", NULL};
 
 /* Tags
  * In a traditional dwm the number of tags in use can be changed simply by changing the number
@@ -249,7 +249,7 @@ static const char *dmenucmd[] = {
 	"-sf", selfgcolor,
 	NULL
 };
-static const char *termcmd[]  = { "st", NULL };
+static const char *termcmd[]  = { "wezterm", NULL };
 
 static const char* firefoxcmd[] = {"firefox", NULL};
 static const Key on_empty_keys[] = {
