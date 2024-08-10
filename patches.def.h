@@ -82,7 +82,7 @@
 #define BAR_LAYOUTMENU_PATCH 0
 
 /* Show layout symbol in bar */
-#define BAR_LTSYMBOL_PATCH 1
+#define BAR_LTSYMBOL_PATCH 0
 
 /* Adds powerline arrows for the status.
  * This uses statuscolors logic for choosing colors for the powerline. As these markers
@@ -138,7 +138,7 @@
 #define BAR_TAGPREVIEW_PATCH 0
 
 /* Show status in bar */
-#define BAR_STATUS_PATCH 1
+#define BAR_STATUS_PATCH 0
 
 /* This patch adds a clickable button to the left hand side of the statusbar.
  * https://dwm.suckless.org/patches/statusbutton/
@@ -175,7 +175,7 @@
 #define BAR_SYSTRAY_PATCH 0
 
 /* Show tag symbols in the bar. */
-#define BAR_TAGS_PATCH 1
+#define BAR_TAGS_PATCH 0
 
 /* Show tag symbols + class of master window in the bar.
  * https://dwm.suckless.org/patches/taglabels/
@@ -206,7 +206,7 @@
 #define BAR_WINICON_PATCH 0
 
 /* Show window title in bar */
-#define BAR_WINTITLE_PATCH 1
+#define BAR_WINTITLE_PATCH 0
 
 /* Shows window titles in the bar, but only for floating clients.
  * This depends on code from the flexwintitle patch.
