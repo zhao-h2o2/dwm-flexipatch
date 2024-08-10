@@ -644,7 +644,7 @@
  * Also see the selectivefakefullscreen option that adds a rule option to enabled this on client
  * startup.
  */
-#define FAKEFULLSCREEN_CLIENT_PATCH 0
+#define FAKEFULLSCREEN_CLIENT_PATCH 1
 
 /* This patch adds a float rule allowing the size and position of floating windows to be specified
  * It also allows the size and position of floating windows to be controlled similar to the
@@ -772,7 +772,7 @@
  * in such scenarios the previous window loses fullscreen.
  * https://github.com/bakkeby/patches/blob/master/dwm/dwm-losefullscreen-6.2.diff
  */
-#define LOSEFULLSCREEN_PATCH 0
+#define LOSEFULLSCREEN_PATCH 1
 
 /* This patch adds helper functions for maximizing, horizontally and vertically, floating
  * windows using keybindings.
@@ -1055,7 +1055,7 @@
  * with the fakefullscreenclient patch and offers no practical functionality without it.
  * https://dwm.suckless.org/patches/selectivefakefullscreen/
  */
-#define SELECTIVEFAKEFULLSCREEN_PATCH 0
+#define SELECTIVEFAKEFULLSCREEN_PATCH 1
 
 /* Allows restarting dwm without the dependency of an external script.
  * https://dwm.suckless.org/patches/selfrestart/
@@ -1304,7 +1304,7 @@
 /* This patch allows you to toggle fullscreen on and off using a single shortcut key.
  * https://github.com/bakkeby/patches/blob/master/dwm/dwm-togglefullscreen-6.2.diff
  */
-#define TOGGLEFULLSCREEN_PATCH 0
+#define TOGGLEFULLSCREEN_PATCH 1
 
 /* This patch allows for the bar position (top or bottom) to be toggled during runtime.
  * https://dwm.suckless.org/patches/toggletopbar/
