@@ -502,7 +502,7 @@
  * get resized/moved. With this patch, they will.
  * https://dwm.suckless.org/patches/autoresize/
  */
-#define AUTORESIZE_PATCH 0
+#define AUTORESIZE_PATCH 1
 
 /* This patch adds proper support for Right-To-Left languages. (such as Farsi, Arabic or Hebrew).
  *
@@ -982,7 +982,7 @@
  * This takes precedence over the resizecorners patch.
  * https://github.com/bakkeby/patches/blob/master/dwm/dwm-resizepoint-6.2.diff
  */
-#define RESIZEPOINT_PATCH 0
+#define RESIZEPOINT_PATCH 1
 
 /* Adds a keyboard shortcut to restart dwm or alternatively by using kill -HUP dwmpid.
  * Additionally dwm can quit cleanly by using kill -TERM dwmpid.
@@ -1299,7 +1299,7 @@
  * two-finger scrolling is configured in libinput.
  * https://dwm.suckless.org/patches/tapresize/
  */
-#define TAPRESIZE_PATCH 0
+#define TAPRESIZE_PATCH 1
 
 /* This patch allows you to toggle fullscreen on and off using a single shortcut key.
  * https://github.com/bakkeby/patches/blob/master/dwm/dwm-togglefullscreen-6.2.diff
