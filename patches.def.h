@@ -496,7 +496,7 @@
  * than the original ~/.dwm folder.
  * https://dwm.suckless.org/patches/autostart/
  */
-#define AUTOSTART_PATCH 0
+#define AUTOSTART_PATCH 1
 
 /* By default, windows that are not visible when requesting a resize/move will not
  * get resized/moved. With this patch, they will.
@@ -575,7 +575,7 @@
  * like chromium (with "Use system title bar and borders" turned off) or vlc in fullscreen mode.
  * https://dwm.suckless.org/patches/decoration_hints/
  */
-#define DECORATION_HINTS_PATCH 0
+#define DECORATION_HINTS_PATCH 1
 
 /* This feature distributes all clients on the current monitor evenly across all tags.
  * It is a variant of the reorganizetags patch.
@@ -652,7 +652,7 @@
  * The size and position can be specified using absolute, relative or fixed co-ordinates and
  * https://github.com/bakkeby/patches/wiki/floatpos/
  */
-#define FLOATPOS_PATCH 0
+#define FLOATPOS_PATCH 1
 
 /* Add-on functionality for the above: make the float positions respect outer (vanity)gaps. */
 #define FLOATPOS_RESPECT_GAPS_PATCH 0
@@ -746,7 +746,7 @@
 /* Adds rule option for clients to avoid accidental termination by killclient for sticky windows.
  * https://dwm.suckless.org/patches/ispermanent/
  */
-#define ISPERMANENT_PATCH 0
+#define ISPERMANENT_PATCH 1
 
 /* This patch adds key modes (like in vim or emacs) where chains of keyboard shortcuts
  * can be performed.
@@ -763,7 +763,7 @@
  * applications that assume that the window manager is using window reparenting.
  * Refer to the ISSUES secton of the dwm man page for more details.
  */
-#define LG3D_PATCH 0
+#define LG3D_PATCH 1
 
 /* By default in dwm it is possible to make an application fullscreen, then use
  * the focusstack keybindings to focus on other windows beneath the current window.
@@ -778,7 +778,7 @@
  * windows using keybindings.
  * https://dwm.suckless.org/patches/maximize/
  */
-#define MAXIMIZE_PATCH 0
+#define MAXIMIZE_PATCH 1
 
 /* Control Music Player Daemon via keybinds.
  * You need to uncomment the corresponding line in config.mk to use the -lmpdclient library
@@ -850,7 +850,7 @@
  * Zoom video conferencing application.
  * https://github.com/bakkeby/patches/wiki/netclientliststacking/
  */
-#define NET_CLIENT_LIST_STACKING_PATCH 0
+#define NET_CLIENT_LIST_STACKING_PATCH 1
 
 /* Removes the border when there is only one window visible.
  * https://dwm.suckless.org/patches/noborder/
@@ -861,7 +861,7 @@
  * compilation error because two lines of code hardcode dmenu into dwm.
  * https://dwm.suckless.org/patches/nodmenu/
  */
-#define NODMENU_PATCH 0
+#define NODMENU_PATCH 1
 
 /* This patch allows for toggleable client button bindings that have no modifiers.
  * This can, for example, allow you to move or resize using the mouse alone without holding
@@ -875,7 +875,7 @@
  *     { ClkClientWin,              0,              Button8,        movemouse,      {0} },
  *     { ClkClientWin,              0,              Button9,        resizemouse,    {0} },
  */
-#define NO_MOD_BUTTONS_PATCH 0
+#define NO_MOD_BUTTONS_PATCH 1
 
 /* When terminals have transparency then their borders also become transparent.
  * This patch ensures that borders have no transparency. Note that this patch is
@@ -892,7 +892,7 @@
  * https://github.com/instantOS/instantWM/
  * https://github.com/bakkeby/dwm-flexipatch/issues/51
  */
-#define ON_EMPTY_KEYS_PATCH 0
+#define ON_EMPTY_KEYS_PATCH 1
 
 /* Minor patch that prevents more than one rule being matched for a given client. */
 #define ONLY_ONE_RULE_MATCH_PATCH 1
@@ -901,7 +901,7 @@
  * This is to prevent you accidentally losing all your work.
  * https://dwm.suckless.org/patches/onlyquitonempty/
  */
-#define ONLYQUITONEMPTY_PATCH 0
+#define ONLYQUITONEMPTY_PATCH 1
 
 /* The pertag patch adds nmaster, mfacts and layouts per tag rather than per
  * monitor (default).
@@ -933,7 +933,7 @@
 /* This patch lets you change the position of a client in the stack using the mouse.
  * https://github.com/bakkeby/patches/wiki/placemouse
  */
-#define PLACEMOUSE_PATCH 0
+#define PLACEMOUSE_PATCH 1
 
 /* This patch provides a way to move clients up and down inside the client list.
  * https://dwm.suckless.org/patches/push/
@@ -995,7 +995,7 @@
  * This patch was backported from instantWM.
  * https://github.com/bakkeby/patches/blob/master/dwm/dwm-riodraw-6.2.diff
  */
-#define RIODRAW_PATCH 0
+#define RIODRAW_PATCH 1
 
 /* This patch let's you rotate through the stack using keyboard shortcuts.
  * https://dwm.suckless.org/patches/rotatestack/
@@ -1014,7 +1014,7 @@
  * will be restored.
  * https://dwm.suckless.org/patches/save_floats/
  */
-#define SAVEFLOATS_PATCH 0
+#define SAVEFLOATS_PATCH 1
 
 /* The scratchpad patch allows you to spawn or restore floating terminal windows.
  * It is typically useful when one need to do some short typing.
@@ -1147,12 +1147,12 @@
  * comes to focusmon, tagmon and similar functionality.
  * https://www.mail-archive.com/hackers@suckless.org/msg09400.html
  */
-#define SORTSCREENS_PATCH 0
+#define SORTSCREENS_PATCH 1
 
 /* Spawns programs from currently focused client's working directory.
  * https://dwm.suckless.org/patches/spawn_cwd/
  */
-#define SPAWNCMD_PATCH 0
+#define SPAWNCMD_PATCH 1
 
 /* This patch provides comprehensive utilities for managing the client stack, providing
  * keyboard shortcuts for focusing or placing a client at specific positions in the stack.
@@ -1173,12 +1173,12 @@
  *
  * https://github.com/bakkeby/patches/wiki/steam
  */
-#define STEAM_PATCH 0
+#define STEAM_PATCH 1
 
 /* Adds toggleable keyboard shortcut to make a client 'sticky', i.e. visible on all tags.
  * https://dwm.suckless.org/patches/sticky/
  */
-#define STICKY_PATCH 0
+#define STICKY_PATCH 1
 
 /* This patch adds "window swallowing" to dwm as known from Plan 9's windowing system rio.
  * Clients marked with isterminal in config.h swallow a window opened by any child process,
@@ -1231,7 +1231,7 @@
  * https://github.com/bakkeby/patches/blob/master/dwm/dwm-switchtag-6.2.diff
  * Also see https://dwm.suckless.org/patches/switchtotag
  */
-#define SWITCHTAG_PATCH 0
+#define SWITCHTAG_PATCH 1
 
 /* This patch transforms the monocle layout into a "tabbed" layout if more than one window is
  * present on the monocle view. This patch has been added for demonstration purposes only and has
@@ -1273,7 +1273,7 @@
  * while remaining in fullscreen.
  * https://github.com/bakkeby/patches/blob/master/dwm/dwm-tagmonfixfs-6.2.diff
  */
-#define TAGMONFIXFS_PATCH 0
+#define TAGMONFIXFS_PATCH 1
 
 /* Add functions and keybindings to tag a window to a desired tag on the next (right)
  * or previous (left) monitor from the currently selected monitor.
@@ -1309,7 +1309,7 @@
 /* This patch allows for the bar position (top or bottom) to be toggled during runtime.
  * https://dwm.suckless.org/patches/toggletopbar/
  */
-#define TOGGLETOPBAR_PATCH 0
+#define TOGGLETOPBAR_PATCH 1
 
 /* Minor patch that lets you use the same keyboard shortcut to toggle to the previous layout if the
  * designated layout is already active.
@@ -1359,7 +1359,7 @@
  * launchers, docks, desktop icons and more.
  * https://github.com/bakkeby/patches/wiki/unmanaged
  */
-#define UNMANAGED_PATCH 0
+#define UNMANAGED_PATCH 1
 
 /* This patch adds configurable gaps between windows differentiating between outer, inner,
  * horizontal and vertical gaps.
@@ -1382,7 +1382,7 @@
  * The number of history elements is defined by the NUMVIEWHIST macro in dwm.c and defaults to
  * the number of tags in the system.
  */
-#define VIEW_HISTORY_PATCH 0
+#define VIEW_HISTORY_PATCH 1
 
 /* Follow a window to the tag it is being moved to.
  * https://dwm.suckless.org/patches/viewontag/
