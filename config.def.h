@@ -41,7 +41,6 @@ static const unsigned int maxwtab          = 600;  /* tab menu width */
 static const unsigned int maxhtab          = 200;  /* tab menu height */
 
 /* Indicators: see patch/bar_indicators.h for options */
-static int tagindicatortype              = INDICATOR_TOP_LEFT_SQUARE;
 static int tiledindicatortype            = INDICATOR_NONE;
 static int floatindicatortype            = INDICATOR_TOP_LEFT_SQUARE;
 static int fakefsindicatortype           = INDICATOR_PLUS;
